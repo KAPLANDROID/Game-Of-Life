@@ -6,5 +6,5 @@ package com.kaplandroid.gameoflife.enums;
  * kaplandroid@omerkaplan.com
  */
 public enum CellState {
-    CELL_STATE_LIVE, CELL_STATE_DEAD
+    CELL_STATE_LIVE, CELL_STATE_DEAD, CELL_STATE_NO_CHANGE
 }
