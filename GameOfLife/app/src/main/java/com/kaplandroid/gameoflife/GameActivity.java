@@ -35,7 +35,7 @@ public class
     private Button btnStartStop;
     private Button btnClearTable;
 
-    //In order not to use method tables every time, I pass row and column count to variables.
+    //In order not to use method tables every time, I pass singleton references to variables.
     private final int rowCount = GameData.getInstance().getRowCount();
     private final int columnCount = GameData.getInstance().getColumnCount();
 
@@ -78,7 +78,7 @@ public class
 
             doObserverMapingsAndInitializeNextGeneration();
 
-            printOutLiveNeighbors(); // Write LOG
+//            printOutLiveNeighbors(); // Write LOG
 
         } else {
 
@@ -142,27 +142,9 @@ public class
                 rowS += ", ";
             }
 
-            System.out.println(rowS);
+            Log.i("Live Neighbours", rowS);
 
         }
-        System.out.println(".");
-        System.out.println(".");
-        System.out.println("NEXT");
-        for (int iRow = 0; iRow < rowCount; iRow++) {
-
-            String rowS = "";
-
-            for (int iCol = 0; iCol < columnCount; iCol++) {
-
-                rowS += gameTable[iRow][iCol].getNextGenerationInfo().getLiveNeighboursCount();
-                rowS += ", ";
-            }
-
-            System.out.println(rowS);
-
-        }
-        System.out.println(".");
-        System.out.println(".");
 
     }
 
