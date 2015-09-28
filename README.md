@@ -15,12 +15,14 @@ Clone the project to your computer. The project is an Android Studio project. To
 ## How to play
 The game comes with randomly generated game table. Also you can clear and draw your own patterns too. This application supports both landscape and portrait orientations.
 
-Portrait
+Portrait:
+
 ![portrait](http://i.imgur.com/jQ65ocW.png?1)
 
 
 
-Landscap"e
+Landscape:
+
 ![landscape](http://i.imgur.com/t9T8SZr.png?1)
 
 
