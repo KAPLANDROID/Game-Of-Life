@@ -36,3 +36,8 @@ _Observer Pattern_ is used for interactions of cells. When a cell changes its st
 ## For more information
 See the wikipedia article on Conway's Game of Life: 
 [https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+
+## DEMO
+You can download demo applicaiton at Google Play Store
+https://play.google.com/store/apps/details?id=com.kaplandroid.gameoflife
